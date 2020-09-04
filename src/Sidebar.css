@@ -1,0 +1,36 @@
+.sidebar {
+  border: 1px solid black;
+  height: 100vh;
+  flex: 0.2;
+  color: #f1f1e8;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 230px;
+  height: 100vh;
+  /* background-color: #040404; */
+  background-color: #393b44;
+}
+
+.sidebar__logo {
+  margin-right: auto;
+  height: 70px;
+  padding: 10px;
+  color: #8d93ab;
+  transition: 200ms color ease-in;
+}
+
+.sidebar__logo:hover {
+  color: #eb8f8f;
+}
+
+.sidebar__playlists {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 14px;
+  transition: 200ms color ease-in;
+}
+
+.sidebar__playlists:hover {
+  color: #8d93ab;
+  cursor: pointer;
+}

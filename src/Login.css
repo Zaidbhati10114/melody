@@ -1,0 +1,37 @@
+.login {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #d6e0f0;
+}
+
+.login > h1 {
+  font-size: 150px;
+  color: #ff5722;
+  align-items: center;
+  padding-left: 200px;
+  padding-top: 100px;
+  padding-right: 100px;
+  height: 400px;
+  background-color: #07689f;
+  border-radius: 99px;
+}
+
+.login > a {
+  padding: 20px;
+  background-color: #ffc93c;
+  border-radius: 99px;
+  font-weight: 800;
+  color: black;
+  text-decoration: none;
+}
+
+.login > h1:hover {
+  color: #4e89ae;
+  background-color: #f6f5f5;
+}
+
+.login > a:hover {
+  background-color: #fddb3a;
+  cursor: pointer;
+}

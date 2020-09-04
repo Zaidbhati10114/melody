@@ -1,0 +1,63 @@
+.body {
+  border: 1px solid black;
+  flex: 0.8;
+  height: 100vh;
+  color: #f1f3f8;
+  overflow-y: overlay;
+  background: linear-gradient(rgb(0, 188, 212), rgba(0, 0, 0, 1));
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.body__info {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.body__songs-icon {
+  display: flex;
+  align-items: center;
+}
+
+.body__songs-icon > .MuiSvg-root {
+  margin-right: 20px;
+}
+
+.body__shuffle-songs {
+  font-size: 80px !important;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.body__shuffle-songs:hover {
+  transition: 100ms transform ease-in;
+  transform: scale(1.08);
+  color: #ebecf1;
+  cursor: pointer;
+}
+
+.body__songs {
+  margin: 20px -30px;
+}
+
+.body__info-text {
+  flex: 1;
+}
+
+.body__info > img {
+  height: 20vw;
+  margin: 0 20px;
+  box-shadow: 0 4px 60px rgba(0, 0, 0, 0.5);
+}
+
+.body__info-text > h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.body__info-text > p {
+  font-size: 14px;
+}
